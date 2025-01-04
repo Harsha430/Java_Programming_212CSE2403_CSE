@@ -1,0 +1,9 @@
+package q10782;
+
+public class CalculateDifference {
+    public static void main(String[] args) {
+        float firstValue = Float.parseFloat(args[0]);
+        float secondValue = Float.parseFloat(args[1]);
+        System.out.println("The difference of args[0] and args[1] is : " + (firstValue - secondValue));
+    }
+}

@@ -1,0 +1,13 @@
+package q10772;
+
+public class CalculateDifference {
+    public static void main(String[] args) {
+       
+        long firstValue = Long.parseLong(args[0]);
+        
+
+        long secondValue = Long.parseLong(args[1]);
+      
+        System.out.println("The difference of args[0] and args[1] is : " +  (firstValue - secondValue));
+    }
+}

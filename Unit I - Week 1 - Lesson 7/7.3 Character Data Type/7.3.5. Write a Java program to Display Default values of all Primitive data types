@@ -1,0 +1,20 @@
+package q10815;
+class PrimitiveTypes {
+    static byte m = 0;
+    static short l = 0;
+    static int s = 0;
+    static long a = 0L;
+    static boolean b = false;
+    static double d = 0.0;
+    static float f = 0.0f;
+
+    public static void main(String[] args) {
+        System.out.println("byte default value = " + m);
+        System.out.println("short default value = " + l);
+        System.out.println("int default value = " + s);
+        System.out.println("long default value = " + a);
+        System.out.println("boolean default value = " + b);
+        System.out.println("double default value = " + d);
+        System.out.println("float default value = " + f);
+    }
+}

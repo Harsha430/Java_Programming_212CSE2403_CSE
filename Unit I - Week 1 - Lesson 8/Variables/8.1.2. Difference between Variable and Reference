@@ -1,0 +1,4 @@
+
+Statement String name = null; is correct
+
+Statement byte[] buffer = null; is correct

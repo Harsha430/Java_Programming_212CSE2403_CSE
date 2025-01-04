@@ -1,0 +1,10 @@
+package q10861;
+import java.math.BigDecimal;
+import java.math.MathContext;
+public class BigDecimalUsage{
+    public static void main(String[] args){
+        MathContext mt=new MathContext(3);
+        BigDecimal bg=new BigDecimal("3.14159265358",mt);
+        System.out.println(bg);
+    }
+}

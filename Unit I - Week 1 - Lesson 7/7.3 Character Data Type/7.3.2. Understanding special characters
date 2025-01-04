@@ -1,0 +1,20 @@
+package q10812;
+
+public class SpecialCharacters {
+    public static void main(String[] args) {
+        char aChar = 'A';
+        char tabChhar = '\t';
+        char digitChar = '7';
+        char newLineChar = '\n';
+        char spaceChar = ' ';
+        char hypenChar = '-';
+        char percentageChar = '%';
+        System.out.print(aChar);
+        System.out.print(tabChhar);
+        System.out.print(digitChar);
+        System.out.print(newLineChar);
+        System.out.print(spaceChar);
+        System.out.print(hypenChar);
+        System.out.print(percentageChar);
+    }
+}

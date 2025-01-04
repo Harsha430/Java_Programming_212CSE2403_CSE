@@ -1,0 +1,5 @@
+char values are 16-bit integers
+
+double can hold a value larger than the maximum float value
+
+long can hold a value greater than the maximum int value

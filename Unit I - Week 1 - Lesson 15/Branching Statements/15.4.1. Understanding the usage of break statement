@@ -1,0 +1,22 @@
+package q10897;
+
+public class BreakDemo {
+    /**
+     * Calculate sum of numbers till the -ve number
+     * occures
+     *
+     *
+     * @return sum
+     */
+    public int calculateSum(int[] arr) {
+        int k = 0;
+        for (int n : arr) {
+            if (n >= 0) {
+                k += n;
+            } else {
+                break;
+            }
+        }
+        return k;
+    }
+}

@@ -1,0 +1,7 @@
+package q10925;
+
+public class CheckMultipleOf {
+    public boolean checkMultipleOf(int a, int b) {
+        return a % b == 0 ? true : false;
+    }
+}

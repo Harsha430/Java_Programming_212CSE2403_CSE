@@ -1,0 +1,29 @@
+package q10928;
+
+public class CountDemo {
+    static final int PASS_MARK = 50;
+
+    public static void main(String[] args) {
+        int mathsMarks = Integer.parseInt(args[0]);
+        int scienceMarks = Integer.parseInt(args[1]);
+
+        int socialMarks = Integer.parseInt(args[2]);
+        int englishMarks = Integer.parseInt(args[3]);
+        int passCount = 0;
+        // Fill in the missing code here to count
+        if (mathsMarks >= 50) {
+            passCount++;
+        }
+        if (scienceMarks >= 50) {
+            passCount++;
+        }
+        if (socialMarks >= 50) {
+            passCount++;
+        }
+        if (englishMarks >= 50) {
+            passCount++;
+        }
+        System.out.println("passCount = " +
+                passCount);
+    }
+}

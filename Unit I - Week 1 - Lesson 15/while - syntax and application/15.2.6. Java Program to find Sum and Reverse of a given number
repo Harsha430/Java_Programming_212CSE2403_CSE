@@ -1,0 +1,16 @@
+package q10893;
+
+public class SumAndReverseNumber {
+    public void sumAndReverseANumber(int a) {
+        int v = 0;
+        String s = "";
+        while (a > 0) {
+            int temp = a % 10;
+            v += temp;
+            s += temp;
+            a /= 10;
+        }
+        System.out.println("Sum of digits : " + v);
+        System.out.println("Reverse : " + s);
+    }
+}

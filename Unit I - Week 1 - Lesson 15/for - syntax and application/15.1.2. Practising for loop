@@ -1,0 +1,12 @@
+package q10882;
+
+public class APowerN {
+    public void powerOf(int A, int N) {
+        int aPowerN = 1;
+
+        for (int i = 1; i <= N; i++) {
+            aPowerN *= A;
+        }
+        System.out.println("APowerN = " + aPowerN);
+    }
+}

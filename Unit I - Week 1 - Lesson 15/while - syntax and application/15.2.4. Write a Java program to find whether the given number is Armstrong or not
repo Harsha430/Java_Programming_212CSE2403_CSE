@@ -1,0 +1,19 @@
+package q10891;
+
+public class Armstrong {
+    public static void main(String[] args) {
+        int a = Integer.parseInt(args[0]);
+        int b = a;
+        int s = 0;
+        while (a > 0) {
+            int temp = a % 10;
+            s += Math.pow(temp, args[0].length());
+            a = a / 10;
+        }
+        if (s == b) {
+            System.out.println("The given number " + args[0] + " is an armstrong number");
+        } else {
+            System.out.println("The given number " + args[0] + " is not an armstrong number");
+        }
+    }
+}

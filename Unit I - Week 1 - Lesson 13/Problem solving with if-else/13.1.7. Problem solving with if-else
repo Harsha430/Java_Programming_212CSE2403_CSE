@@ -1,0 +1,12 @@
+package q10922;
+
+public class PrintWorkingHour {
+    public void checkWorkingHour(int hour) {
+        if (hour >= 9 &&
+                hour <= 17) {
+            System.out.println("Working hour");
+        } else {
+            System.out.println("Nonworking hour");
+        }
+    }
+}

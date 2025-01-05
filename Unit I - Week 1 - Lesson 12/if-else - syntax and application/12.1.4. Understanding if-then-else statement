@@ -1,0 +1,15 @@
+package q10849;
+
+public class AmPmCalculator {
+    public void checkAmPm(int hour) {
+        if (hour >= 0 && hour <= 11) {
+
+            System.out.println("AM");
+        } else if (hour >= 12 && hour <= 23) {
+
+            System.out.println("PM");
+        } else {
+            System.out.println("Invalid Hour!!");
+        }
+    }
+}

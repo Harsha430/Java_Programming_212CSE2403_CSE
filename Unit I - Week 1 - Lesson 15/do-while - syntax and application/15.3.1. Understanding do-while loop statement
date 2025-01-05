@@ -1,0 +1,11 @@
+package q10895;
+
+public class DoWhileDemo {
+    public void printNumbers(int max) {
+        int num = 1;
+        do {
+            System.out.println(num);
+            num++;
+        } while (num <= max);
+    }
+}

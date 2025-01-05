@@ -1,0 +1,11 @@
+package q10930;
+
+import java.util.Arrays;
+
+public class FindMax {
+    public void findMax(int a, int b, int c) {
+        int arr[] = { a, b, c };
+        int max = Arrays.stream(arr).max().getAsInt();
+        System.out.println(max);
+    }
+}

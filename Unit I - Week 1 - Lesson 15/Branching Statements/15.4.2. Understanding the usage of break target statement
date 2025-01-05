@@ -1,0 +1,20 @@
+package q10898;
+
+public class BreakTargetDemo {
+    public static void main(String[] args) {
+        OuterLoop: for (int i = 20; i < 25; i++) {
+            System.out.println("i = " + i);
+            InnerLoop: for (int j = 1; j < 10; j++) {
+                if (i % 11 == 0) {
+                    break OuterLoop;
+                }
+
+                if (j % 5 == 0) {
+                    break InnerLoop;
+                }
+
+                System.out.println("j = " + j);
+            }
+        }
+    }
+}

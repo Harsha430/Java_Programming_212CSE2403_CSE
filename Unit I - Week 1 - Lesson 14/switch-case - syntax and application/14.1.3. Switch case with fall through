@@ -1,0 +1,30 @@
+package q10872;
+
+public class FallThroughDemo {
+    public static void main(String[] args) {
+        int value = Integer.parseInt(args[0]);
+        switch (value) {
+            case 1:
+                System.out.println("One");
+                System.out.println("Two");
+                System.out.println("Three");
+                break;
+            case 2:
+                System.out.println("Two");
+                System.out.println("Three");
+                break;
+            case 3:
+                System.out.println("Three");
+                break;
+            case 4:
+                System.out.println("Four");
+                break;
+            case 10:
+                System.out.println("Ten");
+                break;
+            default:
+                System.out.println("Some other number");
+        }
+        ;
+    }
+}

@@ -1,0 +1,12 @@
+package q10883;
+
+public class FactorialCalculator {
+    public void factorial(int n) {
+        int factorial = 1;
+
+        for (int i = n; i > 0; i--) {
+            factorial *= i;
+        }
+        System.out.println("Factorial of " + n + " = " + factorial);
+    }
+}

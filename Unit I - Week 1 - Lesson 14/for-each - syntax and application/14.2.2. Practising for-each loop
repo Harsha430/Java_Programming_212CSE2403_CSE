@@ -1,0 +1,13 @@
+package q10876;
+
+public class SumOfIntegers {
+    public int calcSum(int[] arr) {
+        int sum = 0;
+
+        for (int value : arr) {
+            sum += value;
+        }
+        return sum;
+        // return the sum
+    }
+}

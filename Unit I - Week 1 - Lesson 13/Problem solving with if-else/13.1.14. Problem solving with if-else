@@ -1,0 +1,14 @@
+package q10929;
+
+public class CountSeniorCitizens {
+    public void countSeniorCitizens(int age1, int age2, int age3, int age4) {
+        int[] arr = { age1, age2, age3, age4 };
+        int count = 0;
+        for (int n : arr) {
+            if (n > 60) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}

@@ -1,0 +1,11 @@
+package q10890;
+
+public class PrintThreeTimes {
+    public static void main(String[] args) {
+        int i = 0;
+        while (i < 3) {
+            System.out.println("Thames");
+            i = i + 1;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+package q11053;
+
+public class AdditionOfMatrix {
+    /**
+     * Computes the addition of the two given matrices if the sizes of the
+     * matrices are the same.
+     * Otherwise, returns null.
+     *
+     * @return the resultant matrix, null if addition is not possible
+     */
+    public int[][] add(int[][] matrix1, int[][] matrix2) {
+        int[][] mat = new int[matrix1.length][matrix1[0].length];
+        if (matrix1.length != matrix2.length || matrix1[0].length != matrix2[0].length) {
+            return null;
+        } else {
+            for (int i = 0; i < matrix1.length; i++) {
+                for (int j = 0; j < matrix1[0].length; j++) {
+                    mat[i][j] = matrix1[i][j] + matrix2[i][j];
+                }
+            }
+            return mat;
+        }
+    }
+}

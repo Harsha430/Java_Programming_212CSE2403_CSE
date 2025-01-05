@@ -1,0 +1,20 @@
+package q10900;
+
+public class ContinueTargetDemo {
+    public static void main(String[] args) {
+        OuterLoop: for (int i = 20; i < 25; i++) {
+            System.out.println("i = " + i);
+            InnerLoop: for (int j = 1; j < 10; j++) {
+                if (i % 2 == 0) {
+                    continue OuterLoop;
+                }
+                if (j % 3 == 0) {
+                    continue InnerLoop;
+                }
+                // Condition 1
+                // Condition 2
+                System.out.println("j = " + j);
+            }
+        }
+    }
+}

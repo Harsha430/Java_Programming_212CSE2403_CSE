@@ -1,0 +1,21 @@
+package q10944;
+
+public class ArrayReverser {
+    /**
+     * Compute the reverse order of the given array
+     *
+     *
+     * @return resultant array
+     */
+    public int[] reverseArray(int[] arr) {
+        int arr1[] = new int[arr.length];
+        int k = arr.length;
+        do {
+            for (int d : arr) {
+                arr1[k - 1] = d;
+                k--;
+            }
+        } while (k > 0);
+        return arr1;
+    }
+}

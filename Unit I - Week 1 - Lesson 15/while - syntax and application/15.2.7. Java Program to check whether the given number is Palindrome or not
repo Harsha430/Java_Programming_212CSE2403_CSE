@@ -1,0 +1,19 @@
+package q10894;
+
+public class NumberPalindrome {
+    public void isNumberPalindrome(int number) {
+        String s = "";
+        int c = number;
+        while (number > 0) {
+            int temp = number % 10;
+            s += temp;
+            number /= 10;
+        }
+        int v = Integer.parseInt(s);
+        if (v == c) {
+            System.out.println(c + " is a palindrome");
+        } else {
+            System.out.println(c + " is not a palindrome");
+        }
+    }
+}

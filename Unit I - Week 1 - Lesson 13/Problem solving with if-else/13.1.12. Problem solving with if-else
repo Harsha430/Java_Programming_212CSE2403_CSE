@@ -1,0 +1,12 @@
+package q10927;
+
+public class RangeCheck {
+    public void checkRange(int a, int b) {
+        if ((a >= 25 && a <= 35)
+                || (b >= 25 && b <= 35)) {
+            System.out.println("Within range");
+        } else {
+            System.out.println("Out of range");
+        }
+    }
+}

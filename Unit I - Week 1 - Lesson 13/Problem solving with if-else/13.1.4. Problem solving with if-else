@@ -1,0 +1,17 @@
+package q10865;
+
+public class PrintBiggerNumber {
+    /**
+     * Compare if firstNo
+     * is greater than secondNo
+     * are not
+     *
+     *
+     * @return result
+     *
+     */
+    public boolean checkNumbers(int firstNo,
+            int secondNo) {
+        return firstNo > secondNo ? true : false;
+    }
+}

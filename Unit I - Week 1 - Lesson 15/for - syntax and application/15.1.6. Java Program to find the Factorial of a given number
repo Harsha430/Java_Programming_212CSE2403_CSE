@@ -1,0 +1,12 @@
+package q10886;
+
+public class Factorial {
+    public static void main(String[] args) {
+        int a = Integer.parseInt(args[0]);
+        int c = 1;
+        for (int i = a; i > 0; i--) {
+            c *= i;
+        }
+        System.out.println("Factorial of " + a + " is " + c);
+    }
+}

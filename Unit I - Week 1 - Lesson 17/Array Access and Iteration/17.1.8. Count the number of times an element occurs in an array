@@ -1,0 +1,22 @@
+package q10943;
+
+public class ArrayElementCounter {
+    /**
+     * Find number of times the element present in
+     * the given array
+     *
+     *
+     *
+     * @retrun count
+     */
+    public int countElement(int[] arr, int element) {
+        // Write your code here
+        int c = 0;
+        for (int d : arr) {
+            if (d == element) {
+                c++;
+            }
+        }
+        return c;
+    }
+}

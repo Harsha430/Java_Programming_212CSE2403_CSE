@@ -1,0 +1,24 @@
+package q10871;
+
+public class HappyDays {
+    public static void main(String[] args) {
+
+        switch (args[0]) {
+            case "Monday":
+            case "Tuesday":
+            case "Wednesday":
+            case "Thursday":
+                System.out.println(args[0] + " is a Working Day");
+                break;
+            case "Friday":
+                System.out.println(args[0] + " is a Semi-Working Day");
+                break;
+            case "Saturday":
+            case "Sunday":
+                System.out.println(args[0] + " is a Happy Day!");
+                break;
+            default:
+                System.out.println(args[0] + " is not a valid day of week");
+        }
+    }
+}

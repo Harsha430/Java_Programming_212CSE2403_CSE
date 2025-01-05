@@ -1,0 +1,13 @@
+package q10846;
+
+public class VotingTest {
+    int VOTING_AGE = 18;
+
+    public void canVote(int age) {
+        if (age >= VOTING_AGE) {
+            System.out.println("Can Vote");
+        } else {
+            System.out.println("Cannot Vote");
+        }
+    }
+}

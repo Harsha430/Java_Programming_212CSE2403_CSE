@@ -1,0 +1,11 @@
+package q10920;
+
+public class PrintSum {
+    public void computeSum(int a, int b) {
+        if (a == b) {
+            System.out.println(2 * (a + b));
+        } else {
+            System.out.println(a + b);
+        }
+    }
+}

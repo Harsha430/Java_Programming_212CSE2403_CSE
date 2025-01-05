@@ -1,0 +1,10 @@
+package q10880;
+
+public class ForDemo {
+    public static void main(String[] args) {
+        // Fill in the missing code for the forloop that prints 1 to 10
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i + 1);
+        }
+    }
+}

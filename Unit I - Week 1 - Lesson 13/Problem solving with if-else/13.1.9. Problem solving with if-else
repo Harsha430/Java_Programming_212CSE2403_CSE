@@ -1,0 +1,13 @@
+package q10924;
+
+public class CheckPositiveNegative {
+    public void checkPositiveNegative(int a, int b) {
+        if (a >= 0 && b >= 0) {
+            System.out.println("positive");
+        } else if (a < 0 && b < 0) {
+            System.out.println("negative");
+        } else {
+            System.out.println("mixed");
+        }
+    }
+}

@@ -1,0 +1,12 @@
+
+package q10926;
+
+public class AgeCheck {
+    public void checkAge(int a, int b) {
+        if (a < 10 && b > 60) {
+            System.out.println("Discount Price");
+        } else {
+            System.out.println("Full Price");
+        }
+    }
+}

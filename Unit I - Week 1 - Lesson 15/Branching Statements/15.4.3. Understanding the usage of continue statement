@@ -1,0 +1,13 @@
+package q10899;
+
+public class ContinueDemo {
+    public void skipEven(int[] arr) {
+        // Fill in the missing code
+        for (int a : arr) {
+            if (a % 2 == 0) {
+                continue;
+            }
+            System.out.println(a);
+        }
+    }
+}

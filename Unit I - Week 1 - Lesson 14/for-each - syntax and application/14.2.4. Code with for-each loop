@@ -1,0 +1,13 @@
+package q10879;
+
+public class PrintOddNumbers {
+    public void printOddNumbers(int[] arr) {
+        for (int a : arr) {
+            if (a % 2 == 0) {
+                System.out.println(a + " is not odd");
+            } else {
+                System.out.println(a + " is odd");
+            }
+        }
+    }
+}

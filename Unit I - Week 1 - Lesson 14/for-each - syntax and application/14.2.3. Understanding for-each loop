@@ -1,0 +1,13 @@
+package q10878;
+
+public class PrintEvenNumbers {
+    public void printEvenNumbers(int[] arr) {
+        for (int a : arr) {
+            if (a % 2 == 0) {
+                System.out.println(a + " is even");
+            } else {
+                System.out.println(a + " is not even");
+            }
+        }
+    }
+}

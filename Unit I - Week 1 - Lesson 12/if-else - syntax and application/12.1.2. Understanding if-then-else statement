@@ -1,0 +1,21 @@
+package q10847;
+
+public class TicketPrice {
+    int INFANT_AGE = 3;
+    int CHILD_AGE = 13;
+    int SENIOR_CITIZEN_AGE = 60;
+    int CENTENARIAN_AGE = 100;
+
+    public void printTicketPrice(int age) {
+        if (age <= 3 || age >= 100) {
+            System.out.println("Ticket Price: 0");
+        } // fill the appropriate else if condition
+        else if (age <= 13 || age >= 60) {
+            System.out.println("Ticket Price: 5");
+        }
+        // fill the appropriate else condition
+        else {
+            System.out.println("Ticket Price: 10");
+        }
+    }
+}

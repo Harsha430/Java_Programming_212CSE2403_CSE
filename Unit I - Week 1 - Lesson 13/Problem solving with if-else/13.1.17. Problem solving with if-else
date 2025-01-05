@@ -1,0 +1,13 @@
+package q10932;
+
+public class NumberEndingCheck {
+    public void checkNumberEnding(int a, int b) {
+        int k = a % 10;
+        int v = b % 10;
+        if (k == v) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+    }
+}

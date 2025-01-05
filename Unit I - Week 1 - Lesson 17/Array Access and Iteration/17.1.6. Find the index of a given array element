@@ -1,0 +1,20 @@
+package q10941;
+
+public class IndexFinder {
+    /**
+     * Find the first index match of the element in the array
+     *
+     *
+     * @return index
+     */
+    public int printIndex(int[] intArr, int element) {
+        int a = 0;
+        for (int s : intArr) {
+            if (element == s) {
+                return a;
+            }
+            a++;
+        }
+        return 0;
+    }
+}

@@ -1,0 +1,13 @@
+package q10931;
+
+public class FindNearestNumber {
+    public void findNearest(int first, int second) {
+        int res1 = Math.abs(100 - first);
+        int res2 = Math.abs(100 - second);
+        if (res1 > res2) {
+            System.out.println(second);
+        } else {
+            System.out.println(first);
+        }
+    }
+}

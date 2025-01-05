@@ -1,0 +1,16 @@
+package q10864;
+
+public class SameNumbers {
+    /**
+     * Check if the two numbers are equal or
+     * not
+     *
+     *
+     *
+     * @return result
+     */
+    public boolean checkNumbers(int firstNo,
+            int secondNo) {
+        return firstNo == secondNo ? true : false;
+    }
+}

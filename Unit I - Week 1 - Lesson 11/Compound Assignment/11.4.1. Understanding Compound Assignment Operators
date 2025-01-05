@@ -1,0 +1,9 @@
+
+value1 = 0
+Correct!
+
+y *= z; results in y's value being changed to 20
+Correct!
+
+value3 = -1
+Correct!

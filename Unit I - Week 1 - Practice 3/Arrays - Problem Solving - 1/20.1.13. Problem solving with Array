@@ -1,0 +1,24 @@
+package q11061;
+
+public class FindMiddle {
+    /**
+     * Find the middle element in the given array
+     *
+     *
+     *
+     * @ return element
+     */
+    public void findMiddle(int[] arr) {
+        // Write your code here
+        int v = arr.length;
+        if (v % 2 == 0) {
+            int a = arr[(v / 2) - 1];
+            int i = arr[v / 2];
+            System.out.println(a);
+            System.out.println(i);
+        } else {
+            int s = arr[v / 2];
+            System.out.println(s);
+        }
+    }
+}

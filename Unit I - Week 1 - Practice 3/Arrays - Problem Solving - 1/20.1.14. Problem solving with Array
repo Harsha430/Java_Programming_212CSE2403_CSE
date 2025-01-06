@@ -1,0 +1,19 @@
+package q11062;
+
+public class SequenceCount {
+    /**
+     * Find the sequence count 1,1 int given array
+     *
+     *
+     * @return count
+     */
+    public int sequenceCount(int[] arr) {
+        int v = 0;
+        for (int a = 0; a < arr.length - 1; a++) {
+            if (arr[a] == 1 && (arr[a + 1] == 1)) {
+                v++;
+            }
+        }
+        return v;
+    }
+}

@@ -1,0 +1,32 @@
+package q11045;
+
+import java.util.Arrays;
+
+public class BinarySearch {
+    public void binarySearch(int[] arr, int element) {
+        Arrays.sort(arr);
+        BinarySearch b = new BinarySearch();
+        int k = b.bs(arr, element);
+        if (k != -1) {
+            System.out.println("Search element " + element + " is found at position : " + k);
+        } else {
+            System.out.println("Search element " + element + " is not found");
+        }
+    }
+
+    public int bs(int[] arr, int element) {
+        int low = 0;
+        int high = arr.length - 1;
+        while (low <= high) {
+            int mid = (high + low) / 2;
+            if (arr[mid] == element) {
+                return mid;
+            } else if (element > arr[mid]) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        return -1;
+    }
+}

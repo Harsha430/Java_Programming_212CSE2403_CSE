@@ -1,0 +1,17 @@
+package q11070;
+
+public class ConcatenateArrays {
+    public void concatenate(int[] arr1, int[] arr2) {
+        int[] arrr = new int[arr1.length +
+                arr2.length];
+        for (int i = 0; i < arr1.length; i++) {
+            arrr[i] = arr1[i];
+        }
+        for (int j = 0; j < arr2.length; j++) {
+            arrr[j + arr1.length] = arr2[j];
+        }
+        for (int n : arrr) {
+            System.out.println(n);
+        }
+    }
+}

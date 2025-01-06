@@ -1,0 +1,16 @@
+package q11060;
+
+public class SequenceCheck {
+    public boolean sequenceCheck(int[] arr) {
+        int c = 0;
+        for (int n : arr) {
+            if (n == 1 || n == 2 || n == 3) {
+                c++;
+            }
+        }
+        if (c >= 3) {
+            return true;
+        }
+        return false;
+    }
+}

@@ -1,0 +1,20 @@
+package q11063;
+
+public class InitializeArray {
+    /**
+     * Set all the elemets in the array to given
+     * element and set to length of array to given length
+     *
+     *
+     *
+     * @return arry
+     */
+    public int[] initialize(int len, int ele) {
+        // Write your code here
+        int[] v = new int[len];
+        for (int i = 0; i < len; i++) {
+            v[i] = ele;
+        }
+        return v;
+    }
+}

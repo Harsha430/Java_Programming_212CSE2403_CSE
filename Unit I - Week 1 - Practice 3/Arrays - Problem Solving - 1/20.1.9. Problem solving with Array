@@ -1,0 +1,21 @@
+package q11057;
+
+public class SumOfElements {
+    /**
+     * Compute sum of all +ve elements in the array
+     * excluding -ve numbers
+     *
+     *
+     * @return sum
+     */
+    public int sum(int[] arr) {
+        // Write your code here
+        int sum = 0;
+        for (int n : arr) {
+            if (n > 0) {
+                sum += n;
+            }
+        }
+        return sum;
+    }
+}

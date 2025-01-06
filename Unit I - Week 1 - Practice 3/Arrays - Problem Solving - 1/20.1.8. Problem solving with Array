@@ -1,0 +1,28 @@
+package q11056;
+
+public class ElementCheck {
+    /**
+     * Find if the first four elements in the array
+     * contains number 4 or not
+     *
+     *
+     * @return result
+     */
+    public boolean elementFinder(int[] arr) {
+        if (arr.length >= 4) {
+            for (int i = 0; i < 4; i++) {
+                if (arr[i] == 4) {
+                    return true;
+                }
+            }
+            return false;
+        } else {
+            for (int k = 0; k < arr.length; k++) {
+                if (arr[k] == 4) {
+                    return true;
+                }
+            }
+            return false;
+        }
+    }
+}

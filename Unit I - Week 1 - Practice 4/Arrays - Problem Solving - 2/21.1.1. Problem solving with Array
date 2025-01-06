@@ -1,0 +1,21 @@
+package q11082;
+
+public class ElementCheckInEveryPair {
+    /**
+     * Find every pair of array contains atleast
+     * one arg
+     *
+     *
+     *
+     *
+     * @return result
+     */
+    public boolean checkElement(int[] arr, int arg) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            if (arr[i] != arg && arr[i + 1] != arg) {
+                return false;
+            }
+        }
+        return true;
+    }
+}

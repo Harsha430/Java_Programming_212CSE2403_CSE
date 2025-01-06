@@ -1,0 +1,17 @@
+package q11071;
+
+import java.util.Arrays;
+
+public class ElementDiff {
+    /**
+     * Compute the difference between large and small elements in the given arry
+     *
+     *
+     * @return result
+     */
+    public int findDiff(int[] arr) {
+        int max = Arrays.stream(arr).max().getAsInt();
+        int min = Arrays.stream(arr).min().getAsInt();
+        return max - min;
+    }
+}

@@ -1,0 +1,22 @@
+package q11074;
+
+public class SumOfSameNumber {
+    /**
+     * Compute the sum of all arg elments in the
+     * arr is greater than 10 or not
+     *
+     *
+     *
+     * @return result
+     */
+    public boolean findSumOf(int[] arr, int arg) {
+        // Write your code here
+        int count = 0;
+        for (int n : arr) {
+            if (n == arg) {
+                count++;
+            }
+        }
+        return (count * arg) >= 10 ? true : false;
+    }
+}

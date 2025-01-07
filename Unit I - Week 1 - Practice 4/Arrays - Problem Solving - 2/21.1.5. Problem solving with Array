@@ -1,0 +1,27 @@
+package q11090;
+
+public class ReorderArray {
+    /**
+     * Arrange all even numbers to infront of the array
+     *
+     *
+     *
+     *
+     * @return result
+     */
+    public int[] reorder(int[] arr) {
+        int index = 0;
+        int[] n1 = new int[arr.length];
+        for (int n : arr) {
+            if (n % 2 == 0) {
+                n1[index++] = n;
+            }
+        }
+        for (int m : arr) {
+            if (m % 2 != 0) {
+                n1[index++] = m;
+            }
+        }
+        return n1;
+    }
+}

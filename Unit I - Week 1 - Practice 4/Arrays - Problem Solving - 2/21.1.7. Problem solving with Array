@@ -1,0 +1,14 @@
+package q11092;
+
+import java.util.Arrays;
+
+public class FindCenteredAverage {
+    public int findCenteredAverage(int[] arr) {
+        int max = Arrays.stream(arr).max().getAsInt();
+        int min = Arrays.stream(arr).min().getAsInt();
+        int length = arr.length - 2;
+        int sum = Arrays.stream(arr).sum();
+        int res = sum - max - min;
+        return res / length;
+    }
+}

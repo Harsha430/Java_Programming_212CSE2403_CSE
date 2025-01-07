@@ -1,0 +1,17 @@
+package q11091;
+
+public class MultiplesInArray {
+    public void findMultiples(int[] arr, int m1, int m2) {
+        for (int n : arr) {
+            if (n % m1 == 0 && n % m2 == 0) {
+                System.out.println(n + " is multiple of " + m1 + " and " + m2);
+            } else if (n % m1 == 0) {
+                System.out.println(n + " is a multiple of " + m1);
+            } else if (n % m2 == 0) {
+                System.out.println(n + " is multiple of " + m2);
+            } else {
+                System.out.println(n);
+            }
+        }
+    }
+}

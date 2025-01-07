@@ -1,0 +1,27 @@
+package q11089;
+
+public class ReorderArray {
+    /**
+     * Arrange all the zeros should come infront of the array
+     *
+     *
+     *
+     * @return array
+     *
+     */
+    public int[] reorder(int[] arr) {
+        int[] a1 = new int[arr.length];
+        int index = 0;
+        for (int n : arr) {
+            if (n == 0) {
+                a1[index++] = 0;
+            }
+        }
+        for (int w : arr) {
+            if (w != 0) {
+                a1[index++] = w;
+            }
+        }
+        return a1;
+    }
+}

@@ -1,0 +1,27 @@
+package q11115;
+
+public class Employee {
+    private String name;
+    private int age;
+    private String designation;
+    private double salary;
+
+    public Employee(String name, int age, String designation, double salary) {
+        this.name = name;
+        this.age = age;
+        this.designation = designation;
+        this.salary = salary;
+    }
+
+    public void displayData() {
+        System.out.println("Name : " + name);
+        System.out.println("Age : " + age);
+        System.out.println("Designation : " + designation);
+        System.out.println("Salary : " + salary);
+    }
+
+    public static void main(String[] args) {
+        Employee em = new Employee(args[0], Integer.parseInt(args[1]), args[2], Double.parseDouble(args[3]));
+        em.displayData();
+    }
+}

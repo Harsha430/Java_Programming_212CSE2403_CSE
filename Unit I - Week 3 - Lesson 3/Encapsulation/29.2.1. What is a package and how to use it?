@@ -1,0 +1,3 @@
+Example2 will compile properly as there is an import statement in the class.
+
+Example3 will compile even though there is no import statement.

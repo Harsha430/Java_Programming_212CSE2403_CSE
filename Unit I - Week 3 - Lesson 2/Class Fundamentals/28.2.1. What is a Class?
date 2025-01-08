@@ -1,0 +1,3 @@
+
+Integer age = new Integer(25);
+age is an instance of class Integer.

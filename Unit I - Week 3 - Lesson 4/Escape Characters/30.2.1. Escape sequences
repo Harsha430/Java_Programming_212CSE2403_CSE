@@ -1,0 +1,12 @@
+package q11146;
+
+public class EscapeSequence {
+    public static void main(String[] args) {
+        String textStr = "She said, \"It is wrongly called 'common sense' because it is rarely used\". \nWhat a wise saying!";
+        System.out.println(textStr);
+        char singleQuoteChar = '\'';
+        System.out.println("Single Quote Char = " + singleQuoteChar);
+        char backSlashChar = '\\';
+        System.out.println("Back Slash Char = " + backSlashChar);
+    }
+}

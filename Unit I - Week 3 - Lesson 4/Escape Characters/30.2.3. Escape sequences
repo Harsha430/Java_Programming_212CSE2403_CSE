@@ -1,0 +1,8 @@
+package q11148;
+
+public class EscapeSequence {
+    public static void main(String[] args) {
+        String text1 = "There are double-quotes around \"Red\"";
+        System.out.println(text1);
+    }
+}

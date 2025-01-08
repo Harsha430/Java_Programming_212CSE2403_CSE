@@ -1,0 +1,9 @@
+package q11150;
+
+public class StringConcatenation {
+    public static void main(String[] args) {
+        System.out.println("Hello!" + " I am learning Java.");
+        System.out.println("Total = " + 3 + 2);
+        System.out.println("Total = " + (3 + 2));
+    }
+}

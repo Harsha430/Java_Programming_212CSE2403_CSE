@@ -1,0 +1,6 @@
+
+currentTimeInMilliSeconds is a variable and not reference.
+
+welcomeMsg is a reference.
+
+flagsArr is a reference.

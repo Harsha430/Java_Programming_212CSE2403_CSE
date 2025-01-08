@@ -1,0 +1,11 @@
+package q11144;
+
+public class StringLiterals {
+    public static void main(String[] args) {
+        String aStr = "Himalayas";
+        String bStr = "are beautiful";
+        String spaceStr = " ";
+        String emptyStr = "";// This is an empty string that does nothing.
+        System.out.println(aStr + spaceStr + bStr + "." + emptyStr);
+    }
+}

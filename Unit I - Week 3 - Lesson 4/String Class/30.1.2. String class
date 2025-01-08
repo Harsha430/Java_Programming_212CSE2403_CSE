@@ -1,0 +1,10 @@
+package q11145;
+
+public class StringLiterals {
+    public static void main(String[] args) {
+        String str1 = "Encyclopedia";
+        String str2 = new String("Encyclopedia");
+        System.out.println("str1 == str2 : " + (str1 == str2));
+        System.out.println("str1.equals(str2) : " + (str1.equals(str2)));
+    }
+}

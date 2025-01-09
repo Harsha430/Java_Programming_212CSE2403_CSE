@@ -1,0 +1,11 @@
+package q11151;
+
+public class StringMethods {
+    public static void main(String[] args) {
+        String str = "FiveTimesFive";
+        System.out.println("Length : " + str.length());
+        System.out.println("5th character : " + str.charAt(4));
+        System.out.println("Upper case : " + str.toUpperCase());
+        System.out.println("Lower case : " + str.toLowerCase());
+    }
+}

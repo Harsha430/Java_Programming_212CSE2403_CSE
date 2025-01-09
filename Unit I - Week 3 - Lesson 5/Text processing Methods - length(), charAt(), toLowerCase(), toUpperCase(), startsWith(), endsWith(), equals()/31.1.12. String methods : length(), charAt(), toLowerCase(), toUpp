@@ -1,0 +1,14 @@
+package q11170;
+
+public class StringCompareTo {
+    public static void main(String[] args) {
+        int res = args[0].compareTo(args[1]);
+        if (res == 0) {
+            System.out.println("arg1 and arg2 are equal");
+        } else if (res > 0) {
+            System.out.println("arg1 is lesser than arg2");
+        } else {
+            System.out.println("arg1 is greater than arg2");
+        }
+    }
+}

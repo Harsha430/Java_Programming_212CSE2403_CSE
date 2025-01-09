@@ -1,0 +1,12 @@
+package q11164;
+
+public class StringMethods {
+    public static void main(String[] args) {
+        String str1 = "Jurassic";
+        String str2 = "juraSSic";
+        System.out.println("equals : " + str1.equals(str2));
+        System.out.println("equalsIgnoreCase: " + str1.equalsIgnoreCase(str2));
+        System.out.println("startsWith " + str1.startsWith("Jur"));
+        System.out.println("endsWith " + str2.endsWith("Sic"));
+    }
+}

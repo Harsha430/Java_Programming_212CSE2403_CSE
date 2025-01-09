@@ -1,0 +1,7 @@
+package q11168;
+
+public class StringCompare {
+    public static void main(String[] args) {
+        System.out.println(args[0].endsWith("ed"));
+    }
+}

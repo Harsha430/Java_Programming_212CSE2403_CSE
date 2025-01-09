@@ -1,0 +1,10 @@
+package q11169;
+
+public class StringCompare {
+    public static void main(String[] args) {
+        System.out.println("The result with equals : " +
+                args[0].equals(args[1]));
+        System.out.println("The result with == : " +
+                (args[0] == args[1]));
+    }
+}

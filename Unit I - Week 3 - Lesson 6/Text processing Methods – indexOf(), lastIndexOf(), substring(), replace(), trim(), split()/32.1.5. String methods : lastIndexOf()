@@ -1,0 +1,8 @@
+package q11175;
+
+public class StringLastIndexOf {
+    public static void main(String[] args) {
+        int a = args[0].lastIndexOf("TX");
+        System.out.println(args[0].lastIndexOf("TX", a - 1));
+    }
+}

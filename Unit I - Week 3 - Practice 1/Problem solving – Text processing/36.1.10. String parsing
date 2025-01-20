@@ -1,0 +1,9 @@
+package q11200;
+
+public class AttachTag {
+    public static void main(String[] args) {
+        String s = args[0];
+        String s1 = args[1];
+        System.out.println("[" + s1 + "]" + s + "[/" + s1 + "]");
+    }
+}

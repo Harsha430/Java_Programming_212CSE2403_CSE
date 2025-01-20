@@ -1,0 +1,22 @@
+package q11268;
+
+public class OverloadArea {
+    // Write the overload methods
+    public float area(float a) {
+        return a * a;
+    }
+
+    public float area(float a, float b) {
+        return a * b;
+    }
+
+    public static void main(String[] args) {
+        // Write the code
+        OverloadArea ar = new OverloadArea();
+        float f1 = Float.parseFloat(args[0]);
+        float f2 = Float.parseFloat(args[1]);
+        System.out.println("Area of square for side in meters " + f1 + " : " + ar.area(f1));
+        System.out.println("Area of rectangle for length and breadth in meters " + f1 + ", " + f2 + " : " +
+                ar.area(f1, f2)); // Fill in the missing code
+    }
+}

@@ -1,0 +1,15 @@
+package q11215;
+
+public class JavaStringBufferDelete {
+    public static void main(String[] args) {
+        StringBuffer sb = new StringBuffer("Hello India");
+        sb.delete(0, 6);
+        System.out.println(sb);
+        StringBuffer sb1 = new StringBuffer("Hello World");
+        sb1.delete(0, sb1.length());
+        System.out.println(sb1);
+        StringBuffer sb2 = new StringBuffer("Hello Java");
+        sb2.delete(0, 1);
+        System.out.println(sb2);
+    }
+}

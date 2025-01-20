@@ -1,0 +1,10 @@
+package q11199;
+
+public class ExtractTag {
+    public static void main(String[] args) {
+        String s = args[0];
+        if (s.startsWith("[") && s.endsWith("]")) {
+            System.out.println(s.substring(1, s.length() - 1));
+        }
+    }
+}

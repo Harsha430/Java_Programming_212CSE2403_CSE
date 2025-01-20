@@ -1,0 +1,3 @@
+append() and insert() operations are not available in strings
+
+insert() method adds the character at the specified index

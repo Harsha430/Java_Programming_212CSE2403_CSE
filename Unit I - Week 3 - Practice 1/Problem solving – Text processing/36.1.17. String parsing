@@ -1,0 +1,9 @@
+package q11207;
+
+public class TestString {
+    public static void main(String[] args) {
+        String s = args[0];
+        String s1 = s.substring(1, s.length()) + s.charAt(0);
+        System.out.println(s1 + "aa");
+    }
+}

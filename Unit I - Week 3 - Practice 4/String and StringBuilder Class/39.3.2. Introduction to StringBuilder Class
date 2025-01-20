@@ -1,0 +1,3 @@
+Initial capacity of string builder is 16
+
+String builders are mutable.

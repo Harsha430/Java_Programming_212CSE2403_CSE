@@ -1,0 +1,18 @@
+package q11324;
+
+public class StackOverflowErrorDemo {
+    private static int counter = 0;
+
+    public static void main(String... args) {
+        try {
+            someMethod();
+        } catch (StackOverflowError ste) {
+            System.out.println("Stack overflow occurred");
+        }
+    }
+
+    public static void someMethod() {
+        counter++;
+        someMethod();
+    }
+}

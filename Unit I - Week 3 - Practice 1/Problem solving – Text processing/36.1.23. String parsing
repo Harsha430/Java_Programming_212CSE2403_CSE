@@ -1,0 +1,25 @@
+package q11213;
+
+public class RemovePrefix {
+    public static void main(String[] args) {
+        String s = args[0];
+        String s1 = s.substring(0, Math.min(2, s.length()));
+        RemovePrefix pr = new RemovePrefix();
+        int a = pr.decide(s1);
+        System.out.println(s.substring(a));
+    }
+
+    public int decide(String str) {
+        if (str.contains("x") || str.contains("y")) {
+            int xIndex = str.indexOf("x");
+            int yIndex = str.indexOf("y");
+            if (xIndex == 0 || yIndex == 0) {
+                return 0;
+            } else {
+                return 1;
+            }
+        } else {
+            return Math.min(2, str.length());
+        }
+    }
+}

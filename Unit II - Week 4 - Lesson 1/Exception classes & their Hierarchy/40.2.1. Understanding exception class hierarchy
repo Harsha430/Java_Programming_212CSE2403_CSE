@@ -1,0 +1,5 @@
+RuntimeException is an unchecked exception.
+
+NullPointerException is an unchecked exception.
+
+ArithmeticException is an unchecked exception.

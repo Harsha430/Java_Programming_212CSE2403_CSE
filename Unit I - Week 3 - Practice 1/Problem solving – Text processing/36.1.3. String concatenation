@@ -1,0 +1,12 @@
+package q11193;
+
+public class ExpandAString {
+    public static void main(String[] args) {
+        int a = Integer.parseInt(args[1]);
+        String s = "";
+        for (int i = 0; i < a; i++) {
+            s += args[0];
+        }
+        System.out.println(s);
+    }
+}

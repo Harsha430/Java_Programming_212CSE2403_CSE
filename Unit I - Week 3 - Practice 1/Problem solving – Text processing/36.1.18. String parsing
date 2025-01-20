@@ -1,0 +1,10 @@
+package q11208;
+
+public class MiddleChar {
+    public static void main(String[] args) {
+        String s = args[0];
+        if (s.length() % 2 != 0) {
+            System.out.println(s.charAt((s.length() / 2)));
+        }
+    }
+}

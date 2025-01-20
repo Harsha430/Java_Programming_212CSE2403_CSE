@@ -1,0 +1,44 @@
+package q11267;
+
+public class Box {
+    private double width;
+    private double height;
+    private double depth;
+
+    public Box() {
+        this.width = -1;
+        this.height = -1;
+        this.depth = -1;
+    }
+
+    public Box(double length) {
+        this.width = length;
+        this.height = length;
+        this.depth = length;
+    }
+
+    public Box(double width, double height, double depth) {
+        this.width = width;
+        this.height = height;
+        this.depth = depth;
+    }
+
+    public double volume() {
+        return width * height * depth;
+    }
+
+    public static void main(String[] args) {
+        if (args.length == 0) {
+            Box bb = new Box();
+            System.out.println("Volume of Box() is : " + bb.volume());
+        } else if (args.length == 1) {
+            Box bb1 = new Box(Double.parseDouble(args[0]));
+            System.out.println("Volume of Box(" + Double.parseDouble(args[0]) + ") is : " + bb1.volume());
+        } else {
+            Box bb2 = new Box(Double.parseDouble(args[0]), Double.parseDouble(args[1]),
+                    Double.parseDouble(args[2]));
+            System.out.println("Volume of Box(" + Double.parseDouble(args[0]) + ", " + Double.parseDouble(args[1])
+                    + ", " + Double.parseDouble(args[2]) + ") is : " + bb2.volume());
+        }
+    }
+}

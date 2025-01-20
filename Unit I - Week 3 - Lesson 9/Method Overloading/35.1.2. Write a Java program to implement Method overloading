@@ -1,0 +1,30 @@
+package q11266;
+
+public class Addition {
+    public static void main(String[] args) {
+        Addition ad = new Addition();
+        ad.add(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
+        ad.add(Float.parseFloat(args[2]), Float.parseFloat(args[3]));
+        ad.add(Integer.parseInt(args[1]), Float.parseFloat(args[3]));
+        ad.add(Float.parseFloat(args[2]), Double.parseDouble(args[4]), Double.parseDouble(args[5]));
+    }
+
+    public void add(int a, int b) {
+        System.out.println("Sum of " + a + " and " + b + " : " +
+                (a + b));
+    }
+
+    public void add(float a, float b) {
+        System.out.println("Sum of " + a + " and " + b + " : " +
+                (a + b));
+    }
+
+    public void add(int a, float b) {
+        System.out.println("Sum of " + a + " and " + b + " : " +
+                (a + b));
+    }
+
+    public void add(float a, double b, double c) {
+        System.out.println("Sum of " + a + ", " + b + " and " + c + " : " + (a + b + c));
+    }
+}

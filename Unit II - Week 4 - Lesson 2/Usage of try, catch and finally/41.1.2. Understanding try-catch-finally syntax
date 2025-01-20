@@ -1,0 +1,16 @@
+try {
+   ...
+} catch (ExceptionClassName  referenceName) {
+   ...
+} finally {	
+   ...
+}
+
+
+
+
+try {
+   ...
+} finally {	
+   ...
+}

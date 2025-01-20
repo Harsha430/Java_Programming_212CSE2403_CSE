@@ -1,0 +1,10 @@
+package q11198;
+
+public class RemoveChar {
+    public static void main(String[] args) {
+        String s = args[0];
+        if (s.length() >= 3) {
+            System.out.println(s.substring(0, 2) + s.substring(3, s.length()));
+        }
+    }
+}

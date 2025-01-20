@@ -1,0 +1,58 @@
+package q11264;
+
+public class MultilevelInheritanceDemo {
+    public static void main(String[] args) {
+        Result res = new Result();
+        res.setData(Integer.parseInt(args[0]), args[1]);
+        res.displayData();
+        res.setMarks(Float.parseFloat(args[2]), Float.parseFloat(args[3]), Float.parseFloat(args[4]));
+        res.displayMarks();
+        res.compute();
+        res.showResult();
+    }
+}
+
+class Student {
+    private int id;
+    private String name;
+
+    public void setData(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public void displayData() {
+        System.out.println("Id : " + id);
+        System.out.println("Name : " + name);
+    }
+}
+
+class Marks extends Student {
+    protected float javaMarks, cMarks, cppMarks;
+
+    public void setMarks(float javaMarks, float cMarks, float cppMarks) {
+        this.cMarks = cMarks;
+        this.cppMarks = cppMarks;
+        this.javaMarks = javaMarks;
+    }
+
+    public void displayMarks() {
+        System.out.println("Java marks : " + javaMarks);
+        System.out.println("C marks : " + cMarks);
+        System.out.println("Cpp marks : " + cppMarks);
+    }
+}
+
+class Result extends Marks {
+    private float total, avg;
+
+    public void compute() {
+        this.total = javaMarks + cMarks + cppMarks;
+        this.avg = total / 3;
+    }
+
+    public void showResult() {
+        System.out.println("Total : " + total);
+        System.out.println("Avg : " + avg);
+    }
+}

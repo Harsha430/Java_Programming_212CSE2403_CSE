@@ -1,0 +1,10 @@
+package q11206;
+
+public class TestString {
+    public static void main(String[] args) {
+        String s = args[0];
+        if (s.length() >= 6) {
+            System.out.println(s.substring(0, 3) + s.substring(s.length() - 3, s.length()));
+        }
+    }
+}

@@ -1,0 +1,16 @@
+package q24212;
+
+import java.lang.Character;
+
+public class Example {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("");
+        String s = args[0];
+        for (int i = 0; i < s.length(); i++) {
+            if (Character.isUpperCase(s.charAt(i))) {
+                sb.append(s.charAt(i));
+            }
+        }
+        System.out.println("The result is: " + sb);
+    }
+}

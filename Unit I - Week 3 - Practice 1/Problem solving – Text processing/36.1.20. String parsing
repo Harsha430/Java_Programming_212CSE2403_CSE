@@ -1,0 +1,11 @@
+package q11210;
+
+public class AppendChars {
+    public static void main(String[] args) {
+        String s = args[0];
+        for (int i = s.length(); i < 10; i++) {
+            s += "*";
+        }
+        System.out.println(s);
+    }
+}

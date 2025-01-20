@@ -1,0 +1,1 @@
+In statement 4, number is first unboxed and later the product is autoboxed gain before being returned.

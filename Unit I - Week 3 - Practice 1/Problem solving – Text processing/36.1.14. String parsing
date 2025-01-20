@@ -1,0 +1,11 @@
+package q11204;
+
+public class EndsWith {
+    public static void main(String[] args) {
+        if (args[0].endsWith("bad")) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+    }
+}
